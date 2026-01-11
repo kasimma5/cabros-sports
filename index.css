@@ -1,0 +1,130 @@
+#h1{
+    display: inline-block;
+    padding: 7px;
+    background-color:#111827 ; 
+    color: #f0f8ff;
+    border-radius: 50px;
+    height: 40px;
+    transform: translateY(-6px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+.c1{
+    display: inline-block;
+    padding: 12px;
+    text-decoration:none;
+    border-radius: 24px;
+    color: rgb(243, 243, 248);
+    background-color: rgb(103, 4, 160);
+    align-content: center;
+    font-style: oblique;
+    align-self: center;
+    margin-top: 40px;
+    font-size: larger;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    border: 1px;
+}
+.c2{
+    display: flex;
+    /* align-content:flex-start ; */
+    width: 100%;
+    overflow-x: auto;
+    height:550px;
+}
+.c3{
+    display: flex;
+    align-content: flex-start;
+    
+    
+}
+.c4{
+    display: flex;
+    align-content: flex-start;
+    
+}
+.cb{
+    display: flex;
+    align-content: flex-start;
+}
+ul{
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+li{
+    text-align: left;
+    text-decoration: none;
+}
+ul{
+    display: inline-block;
+}
+.c5{
+    text-align: center;
+}
+body{
+    background-color: #fae9dd;
+}
+.cc1{
+    color: rgb(126, 12, 12);
+}
+#head{
+    display: flex;
+    align-items:center ;
+}
+h1{
+    display: inline-block;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #790808;
+    color: #f7c079;
+    border-radius: 24px;
+    align-items: center;
+}
+h2{
+    background-color: rgb(126, 12, 12);
+    color: rgb(233, 201, 159);
+}
+.shop{
+     background-color: rgb(126, 12, 12);
+    color: rgb(233, 201, 159);
+}
+.section{
+    display: flex;
+}
+.sec{
+    padding: 12px;
+    border-radius: 30px;
+    background-color: #111827;
+    color: #f0f8ff;
+    margin-right: 10px;
+    align-items: stretch;
+    flex: 1;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+.bg{
+    background-color: #c9a227;
+    }
+.div{
+     background-color: #c9a227;
+    margin-top: 1px;
+   }
+.card{
+    display: inline-block; 
+    padding: 10px; 
+    background-color: #111; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 10px; 
+    font-weight: 600;
+    border: 1px solid #ddd;
+    transform: translateY(-6px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+   
+
