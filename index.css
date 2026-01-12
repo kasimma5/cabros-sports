@@ -1,5 +1,11 @@
-#h1{
-    display: inline-block;
+html{
+    font-size:90%;
+}
+#body{
+    background-color: #c5e1fcf5;
+    font-family: "poppins", sans-serif;
+}
+#heading{
     padding: 7px;
     background-color:#111827 ; 
     color: #f0f8ff;
@@ -8,6 +14,7 @@
     transform: translateY(-6px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    text-align: center;
 }
 .c1{
     display: inline-block;
@@ -15,12 +22,12 @@
     text-decoration:none;
     border-radius: 24px;
     color: rgb(243, 243, 248);
-    background-color: rgb(103, 4, 160);
+    background-color: #6704a0;
     align-content: center;
     font-style: oblique;
     align-self: center;
     margin-top: 40px;
-    font-size: larger;
+    font-size: large;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
     border: 1px;
@@ -45,23 +52,10 @@
 }
 .cb{
     display: flex;
-    align-content: flex-start;
-}
-ul{
-    list-style-position: inside;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-}
-li{
-    text-align: left;
-    text-decoration: none;
+    justify-content: center;
 }
 ul{
     display: inline-block;
-}
-.c5{
-    text-align: center;
 }
 body{
     background-color: #fae9dd;
@@ -69,9 +63,15 @@ body{
 .cc1{
     color: rgb(126, 12, 12);
 }
-#head{
+.head{
     display: flex;
-    align-items:center ;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 768px){
+.head{
+    text-align: center;
+}
 }
 h1{
     display: inline-block;
@@ -80,7 +80,7 @@ h1{
     background-color: #790808;
     color: #f7c079;
     border-radius: 24px;
-    align-items: center;
+    text-align: center;
 }
 h2{
     background-color: rgb(126, 12, 12);
@@ -95,7 +95,7 @@ h2{
     width: 100%;
     overflow-x: auto;
 }
-.sec{
+article{
     padding: 12px;
     border-radius: 30px;
     background-color: #111827;
@@ -107,12 +107,12 @@ h2{
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
 }
-.bg{
+main{
     background-color: #c9a227;
     }
 .div{
      background-color: #c9a227;
-    margin-top: 1px;
+     text-align: center;
    }
 .card{
     display: inline-block; 
@@ -126,6 +126,21 @@ h2{
     transform: translateY(-6px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+p{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+dt{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+form{
+    text-align: center;
 }
 
    
