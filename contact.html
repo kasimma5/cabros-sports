@@ -7,12 +7,12 @@
     <title>Cabros Sports</title>
 </head>
 <body>
-  <a style="display: inline-block; padding: 12px; border-radius: 12px; background-color: #0a23ff; color: #ffff; font-weight: 600; text-decoration: none;" href="index.html">Back to home page</a>
-    <h2 class="ca" align="center">CABROS SPORTS</h2>
+  <a class="back" href="index.html">Back to home page</a>
+    <h2>CABROS SPORTS</h2>
     <p>
         Any questions or remarks? Just write us a message
     </p>
-    <form action="ts/gd/y" method="post" class="form">
+    <form action="ts/gd/y" method="post">
          <section class="cb">
         <div>
             <label for="name">Name:</label>
@@ -21,6 +21,9 @@
         <div>
         <label for="mail">Email:</label>
         <input id="mail" type="email" name="email">
+        <br>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" placeholder="type your message" maxlength="200" minlength="10"></textarea>
         </div>
     </section>
    <button type="submit">Submit</button>

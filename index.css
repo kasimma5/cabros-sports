@@ -1,32 +1,31 @@
 html{
     font-size:90%;
+    font-family: Arial, Helvetica, sans-serif
 }
 #body{
     background-color: #c5e1fcf5;
-    font-family: "poppins", sans-serif;
 }
 #heading{
-    padding: 7px;
+    padding: 10px;
     background-color:#111827 ; 
     color: #f0f8ff;
-    border-radius: 50px;
-    height: 40px;
+    border-radius: 30px;
+    height: 35px;
     transform: translateY(-6px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
-    text-align: center;
 }
-.c1{
+.moto{
     display: inline-block;
-    padding: 12px;
+    padding: 10px;
     text-decoration:none;
-    border-radius: 24px;
+    border-radius: 36px;
     color: rgb(243, 243, 248);
-    background-color: #6704a0;
+    background-color: #04066d;
     align-content: center;
     font-style: oblique;
     align-self: center;
-    margin-top: 40px;
+    margin-bottom: 5px;
     font-size: large;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
@@ -85,12 +84,13 @@ h1{
 h2{
     background-color: rgb(126, 12, 12);
     color: rgb(233, 201, 159);
+    text-align: center;
 }
 .shop{
      background-color: rgb(126, 12, 12);
     color: rgb(233, 201, 159);
 }
-.section{
+.section2{
     display: flex;
     width: 100%;
     overflow-x: auto;
@@ -100,7 +100,7 @@ article{
     border-radius: 30px;
     background-color: #111827;
     color: #f0f8ff;
-    margin-right: 10px;
+    margin-right: 3px;
     align-items: stretch;
     flex: 1;
     border-bottom-left-radius: 5px;
@@ -110,7 +110,7 @@ article{
 main{
     background-color: #c9a227;
     }
-.div{
+.navigation{
      background-color: #c9a227;
      text-align: center;
    }
@@ -142,6 +142,26 @@ nav{
 form{
     text-align: center;
 }
-
+textarea{
+    resize: none;
+    width: auto;
+    height: auto;
+}
+strong{
+    font-style: oblique;
+    color: #c9a227;
+}
+.back{
+    display: inline-block; 
+    padding: 9px; 
+    background-color: #230cee; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 60px; 
+    font-weight: 600;
+}
+.about{
+    text-align: center;
+}
    
 
