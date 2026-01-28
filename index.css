@@ -36,7 +36,7 @@ html{
     /* align-content:flex-start ; */
     width: 100%;
     overflow-x: auto;
-    height:550px;
+    height:400px;
 }
 .c3{
     display: flex;
