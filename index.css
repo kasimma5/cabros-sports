@@ -1,19 +1,22 @@
 html{
-    font-size:90%;
+    font-size:75%;
     font-family: Arial, Helvetica, sans-serif
 }
 #body{
-    background-color: #c5e1fcf5;
+    background-image:linear-gradient(rgba(0,0,0,05), rgba(0,0,0,0.5)), url(https://media.istockphoto.com/id/2206836726/photo/wide-angle-of-modern-football-stadium-with-glass-roof-bright-stadium-lights-illuminating.jpg?s=1024x1024&w=is&k=20&c=Z6w8r-3Ge0VbbRroOvYdvZaboflWYcMIm2lHG1Ukees=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #ddd;
 }
 #heading{
-    padding: 10px;
-    background-color:#111827 ; 
+    padding: 10px; 
     color: #f0f8ff;
     border-radius: 30px;
     height: 35px;
     transform: translateY(-6px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    background-color: #11182700;
 }
 .moto{
     display: inline-block;
@@ -21,7 +24,6 @@ html{
     text-decoration:none;
     border-radius: 36px;
     color: rgb(243, 243, 248);
-    background-color: #04066d;
     align-content: center;
     font-style: oblique;
     align-self: center;
@@ -55,9 +57,6 @@ html{
 }
 ul{
     display: inline-block;
-}
-body{
-    background-color: #fae9dd;
 }
 .cc1{
     color: rgb(126, 12, 12);
@@ -98,7 +97,6 @@ h2{
 article{
     padding: 12px;
     border-radius: 30px;
-    background-color: #111827;
     color: #f0f8ff;
     margin-right: 3px;
     align-items: stretch;
@@ -107,22 +105,16 @@ article{
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
 }
-main{
-    background-color: #c9a227;
-    }
 .navigation{
-     background-color: #c9a227;
      text-align: center;
    }
 .card{
     display: inline-block; 
     padding: 10px; 
-    background-color: #111; 
     color: #fff; 
     text-decoration: none; 
     border-radius: 10px; 
     font-weight: 600;
-    border: 1px solid #ddd;
     transform: translateY(-6px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
@@ -163,5 +155,11 @@ strong{
 .about{
     text-align: center;
 }
-   
-
+p{
+    color: #ddd;
+}
+a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
