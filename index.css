@@ -172,8 +172,8 @@ a{
     font-weight: bold;
     text-decoration: none;
 }
-.quick-link{
-    width: 45%;
+/* .quick-link{
+    width: 30%;
     text-align: center;
 }
 .quick-link img{
@@ -183,4 +183,7 @@ height: auto;
 }
 .quick-link:last-child{
     width: 100%;
+} */
+.img{
+    text-align: center;
 }
