@@ -6,7 +6,7 @@ html{
     background-image:linear-gradient(rgba(0,0,0,05), rgba(0,0,0,0.5)), url(https://media.istockphoto.com/id/2206836726/photo/wide-angle-of-modern-football-stadium-with-glass-roof-bright-stadium-lights-illuminating.jpg?s=1024x1024&w=is&k=20&c=Z6w8r-3Ge0VbbRroOvYdvZaboflWYcMIm2lHG1Ukees=);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     height: 100vh;
     color: #ddd;
     font-weight: bold;
