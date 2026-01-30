@@ -9,6 +9,7 @@ html{
     background-repeat: no-repeat;
     height: 100vh;
     color: #ddd;
+    font-weight: bold;
 }
 #heading{
     padding: 10px; 
@@ -33,9 +34,20 @@ html{
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
     border: 1px;
 }
+.moto1{
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #97f707;
+    font-weight: bolder;
+}
+.moto2{
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-size: x-large;
+       color: #f81616;
+       font-weight: bolder;
+}
 .c2{
     display: flex;
-    /* align-content:flex-start ; */
     width: 100%;
     overflow-x: auto;
     height:400px;
@@ -89,11 +101,6 @@ h2{
      background-color: rgb(126, 12, 12);
     color: rgb(233, 201, 159);
 }
-.section2{
-    display: flex;
-    width: 100%;
-    overflow-x: auto;
-}
 article{
     padding: 12px;
     border-radius: 30px;
@@ -104,6 +111,7 @@ article{
     border-bottom-left-radius: 5px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    background-color: #0b03531f;
 }
 .navigation{
      text-align: center;
@@ -124,6 +132,7 @@ p{
 }
 footer{
     text-align: center;
+    clear: both;
 }
 dt{
     text-align: center;
