@@ -1,6 +1,6 @@
 html{
     font-size:75%;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #body{
     background-image:linear-gradient(rgba(0,0,0,05), rgba(0,0,0,0.5)), url(https://media.istockphoto.com/id/2206836726/photo/wide-angle-of-modern-football-stadium-with-glass-roof-bright-stadium-lights-illuminating.jpg?s=1024x1024&w=is&k=20&c=Z6w8r-3Ge0VbbRroOvYdvZaboflWYcMIm2lHG1Ukees=);
@@ -123,6 +123,7 @@ article{
     text-decoration: none; 
     border-radius: 10px; 
     font-weight: 600;
+    font-size: large;
     transform: translateY(-6px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
@@ -172,18 +173,6 @@ a{
     font-weight: bold;
     text-decoration: none;
 }
-/* .quick-link{
-    width: 30%;
-    text-align: center;
-}
-.quick-link img{
-width: 100%;
-max-width: 120px;
-height: auto;
-}
-.quick-link:last-child{
-    width: 100%;
-} */
 .img{
     text-align: center;
 }
