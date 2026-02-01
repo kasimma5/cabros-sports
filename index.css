@@ -7,7 +7,7 @@ html{
     background-size: cover;
     background-position: center;
     background-repeat: repeat-y;
-    height: 70vh;
+    height: 60vh;
     color: #ddd;
     font-weight: bold;
 }
@@ -174,9 +174,6 @@ a{
     font-weight: bold;
     text-decoration: none;
     font-size:medium;
-}
-.img{
-    text-align: center;
 }
 figcaption{
     color: #0b2e16;
