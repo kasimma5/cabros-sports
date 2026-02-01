@@ -7,7 +7,7 @@ html{
     background-size: cover;
     background-position: center;
     background-repeat: repeat-y;
-    padding: 60px 20px;
+    height: 70vh;
     color: #ddd;
     font-weight: bold;
 }
