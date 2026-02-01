@@ -123,7 +123,7 @@ article{
     text-decoration: none; 
     border-radius: 10px; 
     font-weight: 600;
-    font-size: large;
+    font-size: medium;
     transform: translateY(-6px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
@@ -177,4 +177,7 @@ a{
 }
 .img{
     text-align: center;
+}
+figcaption{
+    color: #0b2e16;
 }
