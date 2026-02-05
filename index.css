@@ -256,8 +256,7 @@ article{
 footer{
     text-align: center;
     clear: both;
-    background: linear-gradient(#0f3d1e, #0b2e16);
-    font-weight: 1000; 
+    font-weight: bold; 
     font-size: small;
     color: #fdfdfd;
 }
