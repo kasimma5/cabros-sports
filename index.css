@@ -7,7 +7,7 @@ html{
     background-size: cover;
     background-position: center;
     background-repeat: repeat-y;
-    height: 60vh;
+    height: 50vh;
     color: #ddd;
     font-weight: bold;
 }
@@ -33,6 +33,7 @@ html{
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
     border: 1px;
+    background-color: #0f3d1e00;
 }
 .moto1{
     font-size: x-large;
@@ -78,11 +79,16 @@ ul{
     justify-content: center;
     align-items: center;
 }
-@media (max-width: 768px){
 .head{
     text-align: center;
 }
-}
+/* @media (max-width: 768px){ */
+    .head1{
+        display: flex; 
+        justify-content: center;
+        
+    }
+
 h1{
     display: inline-block;
     padding: 12px;
@@ -177,4 +183,31 @@ a{
 }
 figcaption{
     color: #0b2e16;
+}
+.link{
+    align-items: center; 
+    font-family: monospace; 
+    font-size: xx-large; 
+    font-weight: 1000; color: #0b2e16;
+    background: #ffffff00;
+    margin:auto;
+}
+.quick-link{
+        background-color:#ece8e8 ;
+        max-width: 350px;
+        margin:auto;
+        flex-grow: 1;
+        text-align: center;
+        font-size: small;
+}
+.quick-link-container{
+    display: flex;
+    gap: 20px;
+    background:#fdfdfd ;
+
+}
+.quick-card{
+    margin: auto;
+    padding-bottom: 10px;
+    padding: 10px;
 }
