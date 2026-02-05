@@ -1,3 +1,142 @@
+/* Reset CSS by Amaka Ndukwu */
+
+/* making use of :where to allow for low specificity making it easy to override */
+
+
+/* 1. border-box for box model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. remove default margin 
+padding is optional but i do this because of lists*/
+
+:where(:not(dialog)) {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 3. great for in-page linking */
+@media(prefers-reduced-motion:no-preference) {
+    :where(html) {
+        scroll-behavior: smooth;
+    }
+}
+
+/* 4. line height and text rendering improvement */
+:where(html) {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 5. ensure full viewport height */
+:where(html, body) {
+    min-block-size: 100%;
+}
+
+/* 6. improve line wrapping */
+:where(h1, h2, h3,
+    h4, h5, h6) {
+    text-wrap: balance;
+}
+
+:where(p) {
+    text-wrap: pretty;
+}
+
+:where(figure)>:where(figcaption) {
+    text-wrap: balance;
+}
+
+:where(p, h1, h2, h3,
+    h4, h5, h6) {
+    overflow-wrap: break-word;
+}
+
+
+
+/* 7. making media elements block-level */
+:where(img,
+    svg,
+    video,
+    canvas,
+    picture,
+    audio,
+    iframe,
+    embed,
+    object) {
+    display: block
+}
+
+:where(img, svg, video, canvas, picture) {
+    block-size: auto;
+    max-inline-size: 100%;
+}
+
+/* 8. inherit font and letter spacing for form controls */
+:where(input,
+    button,
+    textarea,
+    select),
+:where(input[type=file])::-webkit-file-upload-button {
+    font: inherit;
+    letter-spacing: inherit
+}
+
+/* 9. textarea can only resized vertically and will grow to adjust its content */
+:where(textarea) {
+    resize: vertical;
+   field-sizing: content;
+}
+
+/* 10. table */
+:where(table) {
+    width: fit-content;
+    border-collapse: collapse;
+}
+
+:where(pre) {
+    direction: ltr;
+    max-inline-size: max-content;
+    min-inline-size: 0;
+    white-space: pre;
+    writing-mode: lr
+}
+
+:where(a[href],
+    area,
+    button,
+    input:not([type=text],
+        [type=email],
+        [type=number],
+        [type=password],
+        [type=""],
+        [type=tel],
+        [type=url]),
+    label[for],
+    select,
+    summary,
+    [tabindex]:not([tabindex*="-"],
+        pre)) {
+    cursor: pointer
+}
+
+/*  this will disable additional non-standard gestures such as double-tap to zoom*/
+:where(a[href],
+    area,
+    button,
+    input,
+    label[for],
+    select,
+    summary,
+    textarea,
+    [tabindex]:not([tabindex*="-"])) {
+    touch-action: manipulation
+}
+
 html{
     font-size:75%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -8,7 +147,8 @@ html{
     background-position: center;
     background-repeat: repeat-y;
     height: 100vh;
-    font-weight: bold;
+    font-weight: bolder;
+    color: #ddd;
 }
 #heading{
     padding: 10px; 
@@ -46,12 +186,7 @@ html{
        color: #f81616;
        font-weight: bolder;
 }
-.c2{
-    display: flex;
-    width: 100%;
-    overflow-x: auto;
-    height:400px;
-}
+
 .c3{
     display: flex;
     align-content: flex-start;
@@ -88,24 +223,8 @@ ul{
         
     }
 
-h1{
-    display: inline-block;
-    padding: 12px;
-    text-decoration: none;
-    background-color: #790808;
-    color: #f7c079;
-    border-radius: 24px;
-    text-align: center;
-}
-h2{
-    background-color: rgb(126, 12, 12);
-    color: rgb(233, 201, 159);
-    text-align: center;
-}
-.shop{
-     background-color: rgb(126, 12, 12);
-    color: rgb(233, 201, 159);
-}
+
+
 article{
     padding: 12px;
     border-radius: 30px;
@@ -133,9 +252,7 @@ article{
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
 }
-p{
-    text-align: center;
-}
+
 footer{
     text-align: center;
     clear: both;
@@ -174,16 +291,14 @@ strong{
 .about{
     text-align: center;
 }
-p{
-    color: #ddd;
-}
+
 a{
     color: #fff;
     font-weight: bold;
     text-decoration: none;
     font-size:medium;
 }
-figcaption{
+.quick-link-caption{
     color: #0b2e16; 
     font-size: smaller;
 }
@@ -211,10 +326,63 @@ figcaption{
     margin: auto;
     padding: 10px;
 }
-figcaption{
-    
+.quick-card img{
+    height: 70px;
 }
 #main-body{
     background: linear-gradient(#0f3d1e, #0b2e16);
     height: 60vh;
+}
+/* shop section */
+.shop-background{
+    background: #949799;
+}
+.explore{
+    padding: 12px;
+    text-decoration: none;
+    background-color: #790808;
+    color: #f7c079;
+    border-radius: 24px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+
+}
+h2{
+    background-color: #7e0c0c;
+    color: rgb(233, 201, 159);
+    text-align: center;
+}
+.shop{
+    background-color: rgb(126, 12, 12);
+    color: #e9c99f;
+    text-align: center;
+    margin: auto;
+}
+.football-section{
+    display: flex;
+    overflow-x: auto;
+    height:400px;
+    margin: 10px;
+    gap: 2rem;
+    flex-wrap: nowrap;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+.football-section img{
+    height: 250px;
+    width: auto;
+    flex: 0 0 auto;
+    max-inline-size: none;
+}
+.need-more{
+    margin: auto;
+    padding: 9px; 
+    background-color:#008000 ; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 60px; 
+    font-weight: 600;
+    text-align: center;
+    width: 200px;
 }
