@@ -253,12 +253,15 @@ article{
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
 }
 
-footer{
+.footer{
     text-align: center;
     clear: both;
     font-weight: bold; 
     font-size: small;
     color: #fdfdfd;
+}
+.footer span{
+    font-size: small;
 }
 dt{
     text-align: center;
