@@ -361,7 +361,7 @@ h2{
     text-align: center;
     margin: auto;
 }
-.football-section{
+.product-section{
     display: flex;
     overflow-x: auto;
     height:400px;
@@ -371,10 +371,9 @@ h2{
     padding: 20px;
     scroll-behavior: smooth;
 }
-.football-section img{
+.product-section img{
     height: 250px;
     width: auto;
-    flex: 0 0 auto;
     max-inline-size: none;
 }
 .need-more{
